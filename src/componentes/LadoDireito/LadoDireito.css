@@ -1,0 +1,88 @@
+.LadoDireito {
+    width: 40vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 0px;
+    height: 10%;
+}
+.FotoPerfil img {
+    margin-top: 0px;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+}
+.PerfilDireito {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.FotoPerfil {
+    margin-right: 20px;
+}
+
+.User {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+
+.NomePerfil {
+    margin-top: -20px;
+    display: flex;
+    font-size: 14px;
+    color: #737373;
+  }
+
+.UserID {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.button {
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 14px;
+    color: #0096f6;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #0066a5;
+}
+
+.Sugestoes {
+    margin-top: -30px;
+    margin-left: -14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4px 16px;
+}
+
+.Sugestoes span {
+    font-size: 14px;
+}
+
+.Sugestoes span:first-child {
+    margin-right: 8px;
+    color: #737373;
+}
+
+.Sugestoes span:last-child {
+    color: black;
+    font-weight: bold;
+    margin-left: 78px;
+}
+
+.Sugestoes span:last-child:hover {
+    color: rgb(69, 67, 67);
+    cursor: pointer;
+}

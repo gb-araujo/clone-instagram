@@ -1,0 +1,105 @@
+.Post {
+    background-color: #FEFEFE;
+    border: 1px solid #DDD;
+    border-radius: 20px;
+    width: 468px;
+    height: 650px;
+    min-height: 518px;
+    margin-bottom: 50px;
+}
+
+.ConteudoPost {
+    width: 468px;
+    height: 500px;
+    border-bottom: 1px solid #cacaca;
+}
+
+.ConteudoPost img{
+    width: 468px;
+    height: 467px;
+    border-radius: 5px;
+}
+
+.BarraSuperior{
+    margin-left: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.ImagemPerfilAutor {
+
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin: 5px 8px 0;
+}
+
+.ImagemPerfilAutor img {
+    border-radius: 50%;
+    width: 100%;
+    border: 2px solid #cd486b;
+}
+
+.MenuBarraSuperior {
+    margin-left: auto;
+  }
+
+.BarraSuperior .nomeBarra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .BarraInferior {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    margin-bottom: 0;
+    
+  }
+
+  .iconeP {
+    position: absolute;
+    margin-top: -55px;
+    margin-left: -10px;
+    font-size: 24px;
+  }
+
+  .iconeP:hover {
+    color: rgb(113, 112, 112);
+  }
+
+  .iconeP1 {
+    position: absolute;
+    margin-top: -55px;
+    margin-left: -10px;
+    font-size: 25px;
+    color: black;
+  }
+  
+
+  .iconeP1:hover {
+    color: red;
+  }
+  .icones {
+    margin-top: 30px;
+  }
+  .BarraInferior span{
+    margin-left: 0;
+    margin: 15px;
+  }
+
+  .separador {
+    position: absolute;
+    margin-top: -55px;
+    font-size: 24px;
+    margin-left: 340px;
+  }
+
+  .MenuBarraSuperior {
+    margin-left: 330px;
+    margin-top: 5px;
+    font-size: 1.2em;
+  }

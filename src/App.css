@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'BlueVynil';
+  src: url('../public/fonts/Fontspring-DEMO-blue_vinyl_bold_ps_ot.otf') format('truetype');
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.LadoEsquerdo,
+.Centro,
+.LadoDireito {
+  height: 100vh;
+}
+
+.LadoEsquerdo {
+  background: #FFFFFF;
+  border-right: 1px solid #ccc;
+  width: 18vw;
+}

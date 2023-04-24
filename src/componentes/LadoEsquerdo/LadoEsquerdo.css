@@ -1,0 +1,58 @@
+
+.LadoEsquerdo {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img:nth-child(2) {
+  width: 100px;
+  margin-left: 0px;
+}
+
+.logo img {
+    margin: 20px 20px;
+    width: 50px;
+    border-radius: 30%;
+}
+
+
+.menu-principal {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    height: 50vh;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  .menu-principal .icone {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .menu-principal span {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .menu-principal li:hover {
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.056);
+    width: 100%;
+    border-radius: 5%;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 16px;
+    position: static;
+    top: 0;
+    }
+
+  .menu-principal li:first-child{
+    font-weight: bolder;
+  }
