@@ -1,7 +1,7 @@
 # EM CONSTRUÇÃO
 
 
-# Clone Instagram (Desktop)
+# Clone Instagram 
 
 Projeto sendo feito com ReactJS
 
