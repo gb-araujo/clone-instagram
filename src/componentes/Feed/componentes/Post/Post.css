@@ -1,111 +1,127 @@
 .Post {
-    border-radius: 20px;
-    width: 468px;
-    height: 650px;
-    min-height: 518px;
-    margin-bottom: 50px;
+  border-radius: 20px;
+  width: 468px;
+  height: 650px;
+  min-height: 518px;
+  margin-bottom: 50px;
 }
 
 .ConteudoPost {
-    width: 468px;
-    height: 500px;
+  width: 468px;
+  height: 500px;
 }
 
-.ConteudoPost img{
-    width: 467px;
-    height: 467px;
-    border-radius: 3px;
+.ConteudoPost img {
+  width: 467px;
+  height: 467px;
+  border-radius: 3px;
 }
 
-.BarraSuperior{
-    margin-left: auto;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    
+.BarraSuperior {
+  margin-left: auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+
 }
 
 .ImagemPerfilAutor {
 
-    border-radius: 50%;
-    height: 35px;
-    width: 35px;
-    margin: 5px 8px 0;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin: 5px 8px 0;
 }
 
 .ImagemPerfilAutor img {
-    border-radius: 50%;
-    width: 100%;
-    border: 2px solid #cd486b;
+  border-radius: 50%;
+  width: 100%;
+  border: 2px solid #cd486b;
 }
 
 .MenuBarraSuperior {
-    margin-left: auto;
-  }
+  margin-left: auto;
+}
 
 .BarraSuperior .nomeBarra {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .BarraInferior {
-    display: flex;
-    height: 100px;
-    align-items: center;
-    margin-bottom: 0;
-    border-bottom: 1px solid #cacaca;
-    
-  }
+.BarraInferior {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  margin-bottom: 0;
 
-  .iconeP {
-    position: absolute;
-    margin-top: -55px;
-    margin-left: -10px;
-    font-size: 24px;
-  }
+}
 
-  .iconeP:hover {
-    color: rgb(113, 112, 112);
-  }
+.iconeP {
+  position: absolute;
+  margin-top: -55px;
+  margin-left: -10px;
+  font-size: 24px;
+}
 
-  .iconeP1 {
-    position: absolute;
-    margin-top: -55px;
-    margin-left: -10px;
-    font-size: 25px;
-    color: black;
-  }
-  
+.iconeP:hover {
+  color: rgb(113, 112, 112);
+}
 
-  .iconeP1:hover {
-    color: red;
-  }
-  .icones {
-    margin-top: 30px;
-    cursor: pointer;
-  }
-  .BarraInferior span{
-    margin-left: 0;
-    margin: 15px;
-  }
+.iconeP1 {
+  position: absolute;
+  margin-top: -55px;
+  margin-left: -10px;
+  font-size: 25px;
+  color: black;
+}
 
-  .separador {
-    position: absolute;
-    margin-top: -55px;
-    font-size: 24px;
-    margin-left: 340px;
-    cursor: pointer;
-  }
 
-  .MenuBarraSuperior {
-    margin-left: 330px;
-    margin-top: 5px;
-    font-size: 1.2em;
-    cursor: pointer;
-  }
+.iconeP1:hover {
+  color: red;
+}
 
-  .nomecoment{
-    font-weight: bolder;
-  }
+.icones {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.BarraInferior span {
+  margin-left: 0;
+  margin: 15px;
+}
+
+.separador {
+  position: absolute;
+  margin-top: -55px;
+  font-size: 24px;
+  margin-left: 340px;
+  cursor: pointer;
+}
+
+.MenuBarraSuperior {
+  margin-left: 330px;
+  margin-top: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+
+
+.usercoment span {
+  font-weight: bold;
+
+}
+
+.comentario1 {
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.comentario {
+  font-size: 15px;
+  margin-top: 13px;
+  border-bottom: 1px solid #cacaca;
+}
+

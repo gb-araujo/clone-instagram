@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <LadoEsquerdo />
       <LadoDireito />
-
       <div className='Centro'>
         <Stories />
         <Feed />

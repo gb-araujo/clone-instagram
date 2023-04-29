@@ -1,6 +1,5 @@
 import './LadoEsquerdo.css';
-import logo from './imagens/logo.png';
-import logo2 from './imagens/Instagram_logo.png'
+import logo from './imagens/Instagram_logo.png'
 import ItemMenu from './componentes/ItemMenu';
 import { GrHomeRounded } from 'react-icons/gr';
 import { MdSearch } from 'react-icons/md';
@@ -14,7 +13,7 @@ export default function LadoEsquerdo() {
     return (
         <div className='LadoEsquerdo'>
             <div className='logo'>
-                <img src={logo}/> <img src={logo2}/>
+                <img src={logo}/>
             </div>
             <ul className='menu-principal'>
                 <li className='item-menu'>

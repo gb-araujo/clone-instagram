@@ -16,6 +16,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 40px;
+    margin-left: -19px;
 }
 
 .FotoPerfil {
@@ -85,4 +86,68 @@
 .Sugestoes span:last-child:hover {
     color: rgb(69, 67, 67);
     cursor: pointer;
+}
+
+.SugestaoPerfil {
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+.NomePerfil1 {
+    margin-top: -20px;
+    display: flex;
+    font-size: 13px;
+    color: #737373;
+  }
+
+.UserID1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.User1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.footerlist {
+    margin-top: 40px;
+    display: flex;
+}
+
+.footerlist li{
+    font-size: 12px;
+    color: gray;
+    margin: 10px;
+}
+
+.footerlist li:hover{
+    cursor: pointer;
+}
+
+.Footer {
+    margin-left: 20px;
+}
+
+.Footer p{
+    color: gray;
+    font-size: 14px;
+}
+
+.FotoPerfil1 img {
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
 }

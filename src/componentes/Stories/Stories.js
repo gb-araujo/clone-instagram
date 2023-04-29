@@ -19,7 +19,7 @@ function Stories() {
               <Story imgPerfil={FotoPerfil5} nomeDaConta="Emilia" />
               <Story imgPerfil={FotoPerfil} nomeDaConta="Lelouch" />
               <Story imgPerfil={FotoPerfil2} nomeDaConta="Saitama" />
-              <Story imgPerfil={FotoPerfil3} nomeDaConta="Tanjiro" />
+              <Story imgPerfil={FotoPerfil3} nomeDaConta="Tanjiro"/>
               <div className="ShowMore">
               <FaAngleRight />
             </div>
