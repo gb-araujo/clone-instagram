@@ -84,6 +84,7 @@
   }
   .icones {
     margin-top: 30px;
+    cursor: pointer;
   }
   .BarraInferior span{
     margin-left: 0;
@@ -95,12 +96,14 @@
     margin-top: -55px;
     font-size: 24px;
     margin-left: 340px;
+    cursor: pointer;
   }
 
   .MenuBarraSuperior {
     margin-left: 330px;
     margin-top: 5px;
     font-size: 1.2em;
+    cursor: pointer;
   }
 
   .nomecoment{
