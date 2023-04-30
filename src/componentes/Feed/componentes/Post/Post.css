@@ -74,13 +74,8 @@
   margin-top: -55px;
   margin-left: -10px;
   font-size: 25px;
-  color: black;
 }
 
-
-.iconeP1:hover {
-  color: red;
-}
 
 .icones {
   margin-top: 30px;
@@ -107,13 +102,14 @@
   cursor: pointer;
 }
 
-
-
 .usercoment span {
   font-weight: bold;
 
 }
-
+.likes {
+  font-weight: bolder;
+  font-size: 14px;
+}
 .comentario1 {
   font-size: 13px;
   font-weight: bolder;
@@ -125,3 +121,10 @@
   border-bottom: 1px solid #cacaca;
 }
 
+.heart-outline {
+  color: rgb(255, 255, 255); /* define a cor preta */
+}
+
+.heart-filled {
+  color: red; /* define a cor vermelha */
+}
