@@ -52,9 +52,11 @@ export default function Post(props) {
       </div>
       <div className='comentarios'>
         <div className="usercoment">
-        {likes > 0 && <div className='likes'>{likes} curtida.</div>}
+        {likes > 0 && <div className='likes'>{likes} curtidas.</div>}
             <p><span>{props.nomePerfil}</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></div>
-        <div className="comentario"><p><span className='comentario1'>Emilia</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<span ><AiOutlineHeart className='comenticon' /></span></p>
+        <div className="comentario"><p><span className='comentario1'>Emilia</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        <span className='Comentar'><br/>Adicione um comentário...</span></p>
+        
         </div>
       </div>
     </div>

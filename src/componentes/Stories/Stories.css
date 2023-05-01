@@ -1,7 +1,7 @@
 .Stories {
     display: flex;
     position: relative;
-    left: 70vh;
+    left: 76vh;
     background-color: transparent;
     border-radius: 20px;
     width: 30vw;
@@ -20,7 +20,7 @@
     box-shadow: 0px 0px 0px 1px #cacaca;
     border-radius: 20px;
     height: 20px;
-    width: 244px;
+    width: 20px;
     cursor: pointer;
     }
   

@@ -1,14 +1,13 @@
 import './Feed.css';
-import imgExemplo from './imagens/lelouch.webp'
-import imgExemplo2 from './imagens/saitama.jpg'
-import imgExemplo3 from './imagens/tanjiro.jpg'
-import imgExemplo4 from './imagens/yato.jpg'
-import imgExemplo5 from './imagens/emilia.jpg'
-import imagemPerfilExemplo01 from './imagens/lelouch.webp'
-import imagemPerfilExemplo02 from './imagens/saitama.jpg'
-import imagemPerfilExemplo03 from '../Feed/imagens/tanjiro.jpg';
-import imagemPerfilExemplo04 from '../Feed/imagens/yato.jpg';
-import imagemPerfilExemplo05 from '../Feed/imagens/emilia.jpg';
+import akita from './imagens/akitaonrails.jpg'
+import BalleriniPerfil from './imagens/ballerinipfp.jpeg'
+import Ballerini from './imagens/ballerinipost.jpeg'
+import GuanabaraPerfil from './imagens/guanabaraperfil.jpg'
+import Guanabara from './imagens/guanabarapost.jpg'
+import Deschamps from './imagens/DeschampsPost.jpeg'
+import DeschampsPerfil from './imagens/DeschampsPerfil.jpg'
+import Attekita from './imagens/Attekita_dev.jpeg'
+import AttekitaPerfil from './imagens/attekita_profile.jpg'
 
 
 import Post from './componentes/Post/Post'
@@ -17,29 +16,29 @@ export default function Feed() {
     return (
         <div className="Feed">
             <Post 
-            nomePerfil="Lelouch" 
-            imagemPost={imgExemplo}
-            imagemPerfil={imagemPerfilExemplo01}
+            nomePerfil="Akita" 
+            imagemPost={akita}
+            imagemPerfil={akita}
             />
             <Post 
-            nomePerfil='Saitama' 
-            imagemPost={imgExemplo2}
-            imagemPerfil={imagemPerfilExemplo02}
+            nomePerfil='Ballerini' 
+            imagemPost={Ballerini}
+            imagemPerfil={BalleriniPerfil}
             />
             <Post 
-            nomePerfil='Tanjiro' 
-            imagemPost={imgExemplo3}
-            imagemPerfil={imagemPerfilExemplo03}
+            nomePerfil='Guanabara' 
+            imagemPost={Guanabara}
+            imagemPerfil={GuanabaraPerfil}
             />
                         <Post 
-            nomePerfil='Yato' 
-            imagemPost={imgExemplo4}
-            imagemPerfil={imagemPerfilExemplo04}
+            nomePerfil='Deschamps' 
+            imagemPost={Deschamps}
+            imagemPerfil={DeschampsPerfil}
             />
                         <Post 
-            nomePerfil='Emilia' 
-            imagemPost={imgExemplo5}
-            imagemPerfil={imagemPerfilExemplo05}
+            nomePerfil='Attekita' 
+            imagemPost={Attekita}
+            imagemPerfil={AttekitaPerfil}
             />
         </div>
     )

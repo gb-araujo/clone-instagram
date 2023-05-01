@@ -12,7 +12,7 @@ export default function SugestPerfil(props){
                    <div className="button">
                    </div>
                     <div className="NomePerfil1">
-                        <span>Seguido(a) por Yato</span>
+                        <span>Seguido(a) por <strong>-</strong></span>
                     </div>
                 </div>
                 <p className="button">Seguir</p>
