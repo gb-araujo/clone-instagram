@@ -13,6 +13,7 @@ Este clone do Instagram possui as seguintes funcionalidades:
 
 ## Como inicializar o projeto na máquina? 
 Dentro do terminal, instale as dependências do projeto utilizando:
+
 ### `npm install`
 
 Para inicializar o projeto:
